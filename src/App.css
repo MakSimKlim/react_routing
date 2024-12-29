@@ -52,5 +52,14 @@ h1,h2,h3{
 }
 a.active
 {
-  color: green;
+  color: blue;
+}
+.my
+{
+  color:grey;
+}
+.content
+{
+  margin: auto;
+  width: 500px;
 }
