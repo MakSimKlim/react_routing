@@ -9,7 +9,9 @@ import './index.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   //<React.StrictMode>
-    <BrowserRouter>
+  // Чтобы исправить проблему отображения пустой страницы при запуске, нужно настроить BrowserRouter, 
+  // чтобы учитывать базовый путь приложения, нужно дописать basename в BrowserRouter 
+    <BrowserRouter basename="/react_routing"> 
       <App />
     </BrowserRouter>
   //</React.StrictMode>
